@@ -65,7 +65,7 @@ const Home = () => {
                     </div>
                 
                     <div className="col-md-6">
-                        <img src={educator} className="img-responsive" style={{height: '350px', marginLeft: '150px'}}/>
+                        <img src={educator} className="img-responsive" style={{height: '350px', marginLeft: '180px'}}/>
                     </div>
                 </div>
             </div>
