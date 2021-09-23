@@ -1,0 +1,29 @@
+
+.contact{
+    margin-bottom: 200px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.media{
+    background-color: #41F3A2;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgb(138, 136, 136);
+    color: rgb(12, 78, 37);
+    font-size: 25px;
+    padding:  20px;
+    margin: 30px 200px;
+}
+.media:hover{
+    cursor: pointer;
+    background-color: rgb(88, 126, 51);
+    color: white;
+}
+
+.socials{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(69, 71, 71);
+}
