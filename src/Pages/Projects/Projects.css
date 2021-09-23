@@ -1,0 +1,28 @@
+.projects{
+    margin-bottom: 200px;
+}
+
+.projects a{
+    text-decoration: none;
+}
+
+.project{
+    background-color: #41F3A2;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgb(138, 136, 136);
+    color: rgb(12, 78, 37);
+    font-size: 22px;
+    padding: 20px;
+    margin: 20px 30px;
+}
+.project:hover{
+    cursor: pointer;
+    background-color: rgb(88, 126, 51);
+    color: white;
+}
+
+.linkprojects{
+    font-size: 30px;
+    color: rgb(36, 76, 255);
+    padding-top: 50px;
+}
