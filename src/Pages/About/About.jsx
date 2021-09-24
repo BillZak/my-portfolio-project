@@ -1,5 +1,6 @@
 import React from 'react';
-//import navbar component
+import Footer from '../../Components/Footer';
+//import components
 import NavBar from '../../Components/NavBar';
 //import pictures
 import npic from '../../images/npic.jpg'
@@ -11,12 +12,12 @@ const About = () => {
     return (
 
         <div style={{background:'rgb(239, 253, 248)'}}>
-            
+
             <NavBar/>
 
 
              <div className="container overview">
-                    <div className="row" style={{marginTop:'70px'}}>
+                    <div className="row" style={{marginTop:'70px',marginBottom:'200px'}}>
 
                         <div className="col-md-6">
                             <div className="mypic" style={{textAlign:'left'}}>
@@ -42,12 +43,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="container-fluid text-center" 
-                style={{paddingBottom: '20px',marginTop:"300px"}} >
-                    <h2>Portfolio Made By Bill</h2>
-                    <p style={{color:'grey'}}>Follow me; IG @champ_gobain..Twitter@BillZak3</p>
-                </div>
+                
+                <Footer/>
+                
         </div>
     );
 }
