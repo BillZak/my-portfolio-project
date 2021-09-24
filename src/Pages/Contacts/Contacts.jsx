@@ -1,13 +1,14 @@
 import React from 'react';
-//import navbar component
+//import components
 import NavBar from '../../Components/NavBar';
+import Footer from '../../Components/Footer';
 // import css file
 import './Contacts.css'
 
 const Contacts = () => {
     return (
         <div style={{background:'rgb(239, 253, 248)'}}>
-            
+
                 <NavBar/>
 
                 <div className="container contact">
@@ -44,11 +45,8 @@ const Contacts = () => {
                       </a>
                 </div>
 
-                <div className="container-fluid text-center" style={{paddingBottom: '20px'}} >
-                    <h2>Portfolio Made By Bill</h2>
-                    <p>Phone: +233 209 688 728</p>
-                    <p style={{color:'grey'}}>Follow me; IG @champ_gobain..Twitter@BillZak3</p>
-                </div>
+                <Footer/>
+
         </div>
     );
 }
