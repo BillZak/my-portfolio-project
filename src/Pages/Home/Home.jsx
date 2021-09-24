@@ -1,6 +1,7 @@
 import React from 'react';
-//import navbar component
+//import components
 import NavBar from '../../Components/NavBar';
+import Footer from '../../Components/Footer';
 // import dependencies
 import { Link } from "react-router-dom";
 // import css file
@@ -17,7 +18,7 @@ const Home = () => {
     return (
         <>
             <div className="cover">  
-            
+
                 <NavBar/>
                 
                 <div className="container firstview">
@@ -101,10 +102,8 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="container-fluid text-center" style={{paddingBottom: '20px'}} >
-                    <h2>Portfolio Made By Bill</h2>
-                    <p style={{color:'grey'}}>Follow me; IG @champ_gobain..Twitter@BillZak3</p>
-                </div>
+                <Footer/>
+
             </div>
          </>
     );
